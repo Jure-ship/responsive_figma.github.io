@@ -1,0 +1,475 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #060507;
+    flex: auto;
+    width: auto;
+    z-index: 1;
+}
+
+.icon {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+
+}
+@media only screen and (max-width: 768px) {
+    .icon {
+        display: none;
+    }
+    .body {
+        width: 324px;
+    }
+}
+
+.header {
+    position: relative;
+    display: inline-flex;
+    top: 7%;
+    left: 7%;
+    background-color: transparent;
+    align-items: baseline;
+    color: #ffffff;
+    list-style: none;
+}
+.header h1 {
+    float: left;
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.header .icon1 {
+    position: relative;
+    align-items: baseline;
+    margin-top: 1%;
+    margin-left: 5px;
+    float: left;
+}
+
+.header .main_menu {
+    margin-top: 64px;
+    display: flex;
+}
+.header .main_menu li {
+    margin-left: 150px;
+}
+.header .main_menu li a {
+    position: relative;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.box_1 {
+    display: flex;
+    width: 60%;
+    flex: 4;
+    order:1
+}
+.box_1 .slika1 {
+    position: relative;
+    left: 2.5%;
+    top:20%;
+}
+.box_1 .slika2 {
+    position: relative;
+    left: -80%;
+    margin-top: 45%;
+    float: left;
+}
+.box_1 .slika3 {
+    align-self: baseline;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.box_1 .slika6 {
+    position: absolute;
+    top: 14%;
+    left: 46%;
+}
+
+.box_2 {
+    display: flex;
+    width: 20%;
+    flex: 2;
+    order: 2;
+}
+    
+.box_2 .dvije_slike {
+    display: block;
+    float: right;
+}
+.box_2 .dvije_slike .slika4 {
+    position:absolute;
+    top:164px;
+    left: 68.5%;
+    margin-right: 0;
+    z-index: 1;
+}
+.box_2 .dvije_slike .slika5 {
+    position: absolute;
+    margin-right: 0;
+    left: 68.5%;
+    z-index: 1;
+    margin-top: -30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .slika1 {
+        display: none;
+    }
+    .slika3 {
+        display: none;
+    }
+    .slika8 {
+        display: none;
+    }
+    .infobox {
+        display: none;
+    }
+    
+}
+.box_3 {
+    display: flex;
+    flex:2;
+}
+.box_3 .sidenav {
+    position: absolute;
+    float: right;
+    width: 331px;
+    height: 721px;
+    right:0px;
+    bottom: 0;
+    z-index: 1;
+    padding-left:20px;
+    background-color: #060507; 
+    padding-top: 20px;
+    color: #ffffff;
+}
+.box_3 .sidenav .box1 {
+    position: absolute;
+    height:100px;
+  }
+  .box_3 .sidenav .box1 .tekst1 {
+    text-align: center;
+    height:100px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    float:left;
+    margin-top:-113px;
+    font-size: 18px;
+    color: #3F3E44;
+    transform: rotate(-90deg);
+}
+.box_3 .sidenav .box .tekst2 {
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+  margin-left:70px;
+  margin-right:10px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+}
+.box_3 .sidenav .box .tekst3 {
+  margin-left:70px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+  align-items: center;
+}
+.box_3 .sidenav .box .tekst4 {
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+  margin-left:70px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+}
+.box_3 .sidenav .box2 {
+    margin-top: 50%;
+    position: absolute;
+    height:100px;
+}
+.box_3 .sidenav .box2 .tekst1 {
+    padding-left: 35px;
+    text-align: center;
+    height:100px;
+    float:left;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: -50%;
+    color: #3F3E44;
+    font-size: 18px;
+    transform: rotate(-90deg);
+}
+.box_3 .sidenav .box3 {
+    margin-top: 100%;
+    position: absolute;
+    height:100px;
+}
+.box_3 .sidenav .box3 .tekst1 {
+    padding-left: 25px;
+    text-align: center;
+    height:100px;
+    color: #3F3E44;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    float:left;
+    margin-top: -40%;
+    font-size: 18px;
+    transform: rotate(-90deg);
+}
+.box_3 .sidenav .box4 {
+    margin-top: 150%;
+    position: absolute;
+    height:100px;
+}
+.box_3 .sidenav .box4 .tekst1 {
+    padding-left: 23px;
+    text-align: center;
+    display:flex;
+    color: #3F3E44;
+    height:160px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    float:left;
+    margin-top: -80%;
+    font-size: 18px;
+    transform: rotate(-90deg);
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        position: relative;
+        display: inline-flex;
+        left: 25%;
+        top: 0%;
+    }
+    .header .icon1 { 
+        position: relative;
+        margin-top: 30%;
+        left: 1%;
+    }
+    .header .main_menu {
+        display: none;
+    }
+    .slika7 {
+        position: absolute;
+        display: flex;
+        padding: auto;
+        top: 150px;
+        align-items: center;
+    }
+    .paragraf {
+        position: absolute;
+        display: flex;
+        padding: 0 50px 0 50px;
+        top: 750px;
+        align-items: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 200%;
+        color:#ffffff;
+    }
+    .box_1 .slika6 {
+        position: absolute;
+        left: 35%;
+        margin-top: 400px;
+        z-index: 3;
+    }
+    .box_2 .dvije_slike .slika4 {
+        display: none;
+    }
+    .box_2 .dvije_slike .slika5 {
+        position: absolute;
+        display: flex;
+        top: 1030px;
+       left: 17%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .paragraf {
+        display: none;
+    }
+    .slika7 {
+        display: none;
+    }
+    .box_4 {
+        display: none;
+    }
+    .header1 {
+        display: none;
+    }
+    .slika11 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .box_1 .slika2 {
+        position: relative;
+        flex:2;
+        background: transparent;
+        z-index: 1;
+        left:0;
+        top: 1000px;
+        margin-bottom: 100px;
+    }
+    .sidenav {
+        position: relative;
+        display: inline-block;
+        top: 1430px;
+        left: 25px;
+        height: 100px;
+        z-index:0;
+    }
+    .sidenav .box1 {
+        position: relative;
+      width: 250px;
+      left: 0px;
+    }
+    .sidenav .box2 {
+        position: relative;
+      margin-left: 240px;
+      top:-155px;
+      width: 200px;
+     
+    }
+    .sidenav .box3 {
+      display: none;
+    }
+    .sidenav .box4 {
+      display:none;
+    }
+    .box_4 {
+        position: relative;
+        top: 1100px;
+        left: 30px;
+        z-index: 3;
+        display: inline-flex;
+
+    }
+    .box_4 .slika9 {
+        float: left;
+        padding: 20px 30px 15px 40px;
+
+    }
+    .box_4 .slika10 {
+        float: inline-end;
+        align-items: center;
+        padding: 20px 30px 15px 10px;
+    }
+    .box_4 .slika10 .tekst{
+        position: absolute;
+        top: 20%;
+        padding-left: 19%;
+        text-align: center;
+        color: #060507;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 183%;
+    }
+    .box_4 .slika10 .tekst:hover {
+        cursor:pointer;
+    }
+    .header1 {
+        position: relative;
+        float: inline-start;
+        display: flex;
+        color: #ffffff;
+        margin-top: 225%;
+        left: 25%;
+        z-index: 3;
+    }
+    .header1 .icon1 { 
+        position: relative;
+        float: inline-end;
+        margin-top: 5%;
+        left: 1%;
+    }
+    .slika11 {
+        position: relative;
+        display: flex;
+        left:-65%;
+        top:110px;
+        margin-bottom: 0px;
+        
+        
+    }
+}
+
+.infobox {
+    position: relative;
+    width: 911.04px;
+    height: 89.71px;
+    left: 120px;
+    top: 70px;
+}
+
+.infobox .tekst {
+    display: flex;
+font-family: 'Rubik', sans-serif;
+font-weight: 300;
+font-size: 12px;
+margin-top:0px;
+color:#ffffff;
+line-height: 200%;
+float:right;
+align-items: center;
+width: 396.44px;
+}
+.infobox .line1 {  
+    display: flex;
+    flex:3;
+    position:absolute;
+    left:11%;
+     height: 1.95px;
+     top: 64%;
+     width: 220px;
+     background: #ffffff;
+    }
+    .infobox .line2 {
+        display: flex;
+        flex:3;
+      position:absolute;
+      left:11%;
+      height: 1.95px;
+      top: 64%;
+      width: 136px;
+      background: #A75B12;
+    }
+    .infobox .broj {
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 0.5em;
+      line-height: 183%;
+      color: #ffffff;
+    }
+    .infobox .broj .minit1 {
+      top: 50%;
+      position: absolute;
+      float: left;
+      left: 0;
+    }
+    .infobox .broj .minit2 {
+      top: 50%;
+      position: absolute;
+      float: right;
+      right: 50%;
+      text-align: right;
+  }
